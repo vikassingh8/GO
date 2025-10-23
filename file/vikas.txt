@@ -1,0 +1,2 @@
+Would you like me to continue this with the next concept —
+👉 How goroutines communicate with each other using Channels (the next key piece after WaitGroup)?
