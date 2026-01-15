@@ -49,6 +49,7 @@ type UserService struct {
 }
 
 func (u UserService) SaveUser(name string) {
+	fmt.Printf("Saving user %s.\n", name)
 	u.DB.SaveUser(name)
 }
 func main() {
