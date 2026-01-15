@@ -60,3 +60,30 @@ func main() {
 	userService.DB = mockDB
 	userService.SaveUser("Jane Doe")
 }
+
+
+
+
+
+// package main
+// import "fmt"
+
+// type method interface {
+// 	craete(name string, age int)
+// }
+
+// type student struct{}
+
+// func (s student) craete(name string, age int) {
+// 	fmt.Println("Student Name:", name, "Age:", age)
+// }
+
+// func process(m method) {
+// 	m.craete("Alice", 20)
+// }
+
+// func main() {
+// 	var m method
+// 	m = student{}   // student implements method interface
+// 	process(m)
+// }
